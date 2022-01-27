@@ -1,0 +1,45 @@
+.filteredContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  max-width: 950px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.filteredContainer label {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.fieldContainer {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.input {
+  border-radius: 8px;
+  padding: 4px 4px;
+  width: 200px;
+}
+
+.buttonsContainer {
+  display: flex;
+  margin: 16px auto;
+  justify-content: space-between;
+  width: 170px;
+}
+
+.buttonsContainer button {
+  background: lightseagreen;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin: 5px 5px 0px 10px;
+}
+
+.buttonsContainer button:hover {
+  background: #f77d7d;
+}
